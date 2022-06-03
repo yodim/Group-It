@@ -1,0 +1,185 @@
+body {
+  font-size: 17px !important;
+  font-family: 'Cairo', sans-serif !important;
+}
+
+.navigation {
+  background-color: rgb(247, 143, 25);
+  padding: 0px 15px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.fa-chart-pie {
+  margin-left: 2px;
+}
+
+.navigation li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.navigation li a:hover {
+  color: black;
+}
+
+.navigation ul{
+  list-style: none;
+  padding: 15px 0px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.fa-dollar-sign {
+  margin-left: 5px ;
+}
+
+.fa-user {
+  margin-left: 4px;
+}
+
+.fa-truck {
+  margin-left: 2px;
+}
+
+.fa-bell {
+  margin-left: 3px;
+}
+
+.Statistiques {
+  margin-left: 1px;
+}
+
+.User {
+  margin-left: 2px;
+}
+
+.Produits {
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.ventes {
+  margin-left: 5px;
+  white-space: nowrap;
+}
+
+.Commandes {
+  margin-left: -3px;
+  white-space: nowrap;
+} 
+
+.barItem {
+  white-space: nowrap;
+}
+
+.ContentDivs {
+  border: 1px solid ;
+  border-radius: 10px!important;
+  height: 200px;
+  width: 48%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.firstDiv, .sndDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+}
+
+.firstDiv {
+  padding-bottom: 5px;
+}
+
+.sndDiv {
+  padding-top: 5px;
+}
+
+.theContainer {
+  display: flex;
+  margin-top: 20px;
+  padding: 0px 5px;
+}
+
+.theContent {
+  display: block;
+  text-align: center;
+}
+
+.more {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  display: block;
+  text-align: right;
+  padding-top: 12px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.more a {
+  color: rgb(65, 65, 65);
+  text-decoration: none;
+}
+
+.more a:hover {
+  color: rgb(248, 183, 109);
+}
+
+.details {
+  display: flex;
+  padding : 30px;
+  padding-top: 35px;
+}
+
+.descr {
+  text-align: left;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.Illustrations {
+  height: 120px;
+  width: 120px;
+}
+
+.ClientsDiv {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #ffffff, rgb(247, 143, 25));
+}
+
+.RevenusDiv {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #ffffff, rgb(247, 143, 25));
+}
+
+.CommandesDiv {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #ffffff, rgb(247, 143, 25));
+}
+
+.AchatDiv {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #ffffff, rgb(247, 143, 25));
+}
+
+@media (max-width: 1225px) {
+
+  .navigation {
+    padding: 0px 8px;
+  }
+  
+
+}
+

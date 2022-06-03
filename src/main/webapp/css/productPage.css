@@ -1,0 +1,129 @@
+body {
+    font-size: 17px !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.productCard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.officialImage {
+    height: 350px;
+    width: 350px;
+    background-color: #f8e7ce;
+    border-radius: 10px;
+}
+
+.descriptionProduct {
+    height: 400px;
+    width: 400px;
+    display: block;
+}
+.productQuantity{
+	height:36px;
+	width :42px;
+    border-style: none;
+	text-align: center;
+	color: #fd9502;
+}
+
+.Pname{
+	border-style: none;
+	text-align: left;
+	color: black;
+	background-color: white;
+}
+
+.unitPrice{
+	height:40px;
+	width :42px;
+    border-style: none;
+	text-align: center;
+	color: #fd9502;
+}
+.Stock{
+	height:40px;
+	width :42px;
+    border-style: none;
+	text-align: left;
+	color: red;
+	background-color: white;
+}
+
+.Add {
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.Add:hover {
+    border-radius: 30px 0px 30px 0px;
+    background-color: #fd9502;
+    transition: 0.5s;
+}
+
+.productTitle {
+    margin-bottom: 20px;
+}
+
+.ProPrice {
+    margin-bottom: 20px;
+    color: #fd9502;
+    
+}
+
+.descriptionPro {
+    margin-bottom: 20px;
+}
+
+.quantity {
+    display: flex;
+}
+
+.quantityNum {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: -5px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.productQuantity {
+    font-size: 25px;
+}
+
+.proImage {
+    height: 70px;
+    width: 70px;
+    background-color: #f8e7ce;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+.otherImages {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.qteButtons {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+}
+
+.firstDiv {
+    display: block;
+}

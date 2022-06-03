@@ -1,0 +1,181 @@
+.sellerContainer {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.sellerText {
+    display: block;
+    text-align: center;
+}
+
+.sellerImage {
+    height: 400px;
+    width: 500px;
+}
+
+.sellerDescription  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align: left !important;
+    width: fit-content;
+    padding: 25px;
+    margin: auto;
+}
+
+.getStarted {
+    background-color: #F8F8F8;
+    padding: 10px 50px;
+    border: 1px solid #e4ac5e;
+    border-radius: 5px;
+    color: #e4ac5e;
+    font-size: 22px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.getStarted:hover {
+    color: white;
+    background-color: #e4ac5e;
+    transition: 0.3s;
+    border-radius: 20px 0px 20px 0px;
+} 
+
+@media screen and (max-width: 1200px) {
+    
+    .sellerImage {
+        height: 350px;
+        width: 450px;
+    }
+
+    .sellerDescription  {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        text-align: left !important;
+        width: fit-content;
+        padding: 15px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .sellerContainer {
+        background-color: #F8F8F8;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .sellerImage {
+        height: 250px;
+        width: 330px;
+    }
+
+    .sellerDescription  {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        text-align: left !important;
+        width: fit-content;
+        padding: 5px;
+        margin: auto;
+        white-space: nowrap;
+    }
+    
+    .getStarted {
+        background-color: #DEA85E;
+        padding: 5px 45px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sellerContainer {
+        background-color: #F8F8F8;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .sellerImage {
+        height: 200px;
+        width: 240px;
+        margin-right: auto;
+    }
+
+    .sellerDescription  {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        text-align: left !important;
+        width: fit-content;
+        padding: 10px;
+        margin: auto;
+        white-space: nowrap;
+    }
+
+    .getStarted {
+        background-color: #DEA85E;
+        padding: 5px 45px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .sellerContainer {
+        background-color: #F8F8F8;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .sellerImage {
+        height: 230px;
+        width: 260px;
+    }
+
+    .imageContainer2 {
+        display: block;
+        text-align: center;
+    }
+    
+    .sellerText {
+        display: block;
+        text-align: center;
+    }
+
+    .theContainer {
+        margin: auto;
+    }
+
+    .sellerDescription  {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        text-align: left !important;
+        width: fit-content;
+        padding: 10px;
+        white-space: nowrap;
+    }
+}
+
+
+

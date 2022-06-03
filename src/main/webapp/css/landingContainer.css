@@ -1,0 +1,177 @@
+.landingContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.landingLeftContainer {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.firstImage {
+    height: 540px;
+}
+
+.discoverProducts {
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid #e4ac5e;
+    border-radius: 5px;
+    color: #e4ac5e;
+    font-size: 22px;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.discoverProducts:hover {
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+    background-color: #e4ac5e;
+    transition: 0.3s;
+} 
+
+.firstSlogan {
+    font-family: 'Limelight', cursive;
+    font-size: 45px;
+    text-align: left !important;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .landingContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .landingLeftContainer {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .firstImage {
+        width: 540px;
+    }
+
+    .firstSlogan {
+        font-family: 'Limelight', cursive;
+        font-size: 40px;
+        text-align: left !important;
+        padding: 10px;
+        margin-top: 20px;
+        white-space: nowrap !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .landingContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .landingLeftContainer {
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstImage {
+        width: 430px;
+    }
+
+    .firstSlogan {
+        font-family: 'Limelight', cursive;
+        font-size: 40px;
+        text-align: left !important;   
+        white-space: nowrap !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landingLeftContainer {
+        display: block;
+        text-align: center;
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .firstSlogan {
+        font-family: 'Limelight', cursive;
+        font-size: 33px;
+        text-align: left !important;
+        margin-top: -50px;
+    }
+
+    .discoverProducts {
+        background-color: #DEA85E;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 22px;
+        margin-top: 50px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landingLeftContainer {
+        display: block;
+        text-align: center;
+    }
+
+    .landingLeftContainer button {
+        text-align: center;
+    }
+
+    .firstImage {
+        display: none;
+    }
+
+    .firstSlogan {
+        font-family: 'Limelight', cursive;
+        font-size: 33px;
+        text-align: left !important;
+        margin-top: -50px;
+    }
+
+    .discoverProducts {
+        background-color: #DEA85E;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    
+}

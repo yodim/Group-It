@@ -1,0 +1,92 @@
+main {
+    display: flex;
+}
+
+.container {
+    background-color: white;
+}
+
+.TitlesDiv {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------ CSS for the table start ------- */
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgb(196, 196, 196);
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+thead {
+    box-shadow: 0 5px 10px rgb(196, 196, 196);
+    background-color: #ED8C31;
+}
+
+th {
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+td {
+    padding: 8px 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #fde6d0;
+}
+
+.DeleteData {
+    text-align: center;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-trash-alt:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.ConfirmData, .ConfirmCase {
+    padding-right: 0px;
+}
+
+.ConfirmData {
+    text-align: center;
+}
+
+.fa-check-circle {
+    color: rgb(5, 218, 5);
+}
+
+.fa-check-circle:hover {
+    color: rgb(0, 214, 0);
+    cursor: pointer;
+}
+
+.amount {
+    text-align: right;
+}
+
+.productImage {
+    height: 70px;
+    width: 70px;
+    padding-right: 5px;
+}
+
+/* ------ CSS for the table end------- */

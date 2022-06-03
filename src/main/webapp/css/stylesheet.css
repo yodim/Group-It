@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+	 margin: 0;
+  	padding: 0;
+    font-size: 17px ;
+    font-family: 'Cairo', sans-serif;
+}
+
+.productCard {
+}
+
+.newProducts {
+    position: relative;
+    text-align: center;
+}
+
+.horizontalLine {
+    border-top: 2px solid #DEA85E;
+    width: 108px;
+    margin: auto;
+    margin-top: -5px;
+}
+
+.product {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.productName {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.productDescription {
+    font-size: 14px;
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.priceContainer {
+    display: flex;
+    margin: 18px 10px 8px 10px;
+    justify-content: space-evenly;
+}
+
+.addToCart {
+    background-color: #FFE4BF;
+    border: none;
+    border-radius: 10px;
+    color: #A32424;
+    font-size: 14px;
+    padding: 4px 10px;
+    margin-right: -12px ;
+    margin-top: -5px;
+}
+
+.addToCart:hover {
+    background-color: #fd9502;
+    color: white;
+}
+
+.youAreSeller {
+    text-align: center;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #DEA85E; 
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #fd9502; 
+}
+
+
+@media (max-width: 500px) {
+
+    .productContainer {
+        width: 100%;
+    }
+
+    .product {
+        padding: 5px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .addToCart, .productPrice {
+        white-space: nowrap;
+    }
+
+    .youAreSeller {
+        margin-top: -18px;
+    }
+}
+
+
+
+

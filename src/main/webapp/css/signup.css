@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-size: 17px ;
+    font-family: 'Cairo', sans-serif;
+}
+
+.signupTemplate {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #DEA85E;
+    width: 50%;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ffffff, #000000);
+}
+
+.loginLogo {
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.inputArea, .inputNameArea {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 2px 0px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #443e3e, #443e3e);
+}
+
+.inputArea {
+    width: 320px;    
+}
+
+.inputNameArea {
+    width: 158px;
+}
+
+.passwordArea {
+    -webkit-text-security: circle;
+}
+
+select {
+    border: 2px solid #443e3e;
+}
+
+.signupbtn {
+    padding: 5px;
+    width: 320px;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    transition: 0.5s;
+}
+
+.signupbtn:hover {
+    border-radius: 20px 0px;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+    .signupTemplate  {
+        width: 70%;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #DEA85E; 
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #fd9502; 
+}
+
+@media (max-width: 576px) {
+
+    .signupTemplate  {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .inputArea, .signupbtn, .inputNameArea {
+        width: 270px;    
+    }
+}
+
+@media (max-width: 500px) {
+
+    .signupTemplate  {
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    .inputArea, .signupbtn, .inputNameArea {
+        width: 270px;    
+    }
+    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  display: none;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.loading {
+  border: 2px solid #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-top-color: #1ecd97;
+  border-left-color: #1ecd97;
+  animation: spin 1s infinite ease-in;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productCardContainer {
+    padding: 10px;
+}
+
+.productCard {
+    background-color: #fff0dd;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 8px;
+}
+
+.productCard:hover {
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.productCard a {
+    text-decoration: none;
+    color: #cf6909;
+}
+
+.productPrice {
+    padding: 0px 35px;
+}
+
+.productImage {
+    height: 170px;
+    width: 170px;
+}
+
+.fa-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-shopping-cart {
+    cursor: pointer;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.controles li {
+    list-style: none;
+    
+}
+
+.controles li a {
+    background-color: none;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.controles li a::before:hover {
+    border-color: darkorange;
+}
+
+.controles li a::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid ;
+    border-bottom: 3px solid ;
+    border-color: black;
+    transform: rotate(45deg);
+}
+
+.controles li:nth-child(2) a::before {
+    transform: rotate(225deg);
+}

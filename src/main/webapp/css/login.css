@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    font-size: 17px ;
+    font-family: 'Cairo', sans-serif;
+}
+
+.loginTemplate {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    width: 50%;
+    border: 2px solid #DEA85E;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #ffffff, #000000);
+}
+
+.textArea, .passwordArea {
+    padding: 5px;
+    padding-left: 20px;
+    width: 270px;    
+    margin: 10px 0px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #443e3e, #443e3e);
+}
+
+.sbmitBtn {
+    padding: 5px;
+    width: 270px;
+    margin: 10px 0px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    transition: 0.5s;
+}
+
+.sbmitBtn:hover {
+    border-radius: 20px 0px;
+    transition: 0.5s;
+}
+
+.loginLogo {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.signUp, .signText {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    
+    .loginTemplate {
+        padding: 30px 10px;
+        width: 60%;
+    }
+    
+    .textArea, .passwordArea {
+        width: 260px;    
+        margin: 10px 0px;
+    }
+
+    .sbmitBtn {
+        width: 260px;
+        margin: 10px 0px;
+    }
+    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #DEA85E; 
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #fd9502; 
+}
+
+@media (max-width:  576px) {
+    
+    .loginTemplate {
+        padding: 30px 10px;
+        width: 70%;
+    }
+    
+    .textArea, .passwordArea {
+        width: 250px;    
+        margin: 10px 0px;
+    }
+
+    .sbmitBtn {
+        width: 250px;
+        margin: 10px 0px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .loginTemplate {
+        width: 80%;
+    }
+
+    .textArea, .passwordArea, .sbmitBtn {
+        width: 250px;    
+    }
+    
+}
+
+
+
+

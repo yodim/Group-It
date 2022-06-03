@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sideBar {
+    position: relative;
+    background-color: #ED8C31;
+    margin-top: 10px;
+    padding-left: 10px 5px;
+    left: 0px;
+    width: 250px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.profileImageSideBar {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    padding-bottom: 0px;
+}
+
+.sideBar .userName {
+    color: #FDFFFC;
+}
+
+.sideBar a{
+    display: block;
+    color: #FDFFFC;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.sideBar a:hover {
+    background-color: #F0A156;
+}
+
+.sideBar i {
+    padding-right: 15px;
+}
+
+.profileImage {
+    width: 90px;
+    height: 90px;
+    clip-path: circle();
+    margin-bottom: 10px;
+}

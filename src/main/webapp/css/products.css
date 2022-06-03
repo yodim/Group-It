@@ -1,0 +1,51 @@
+.controles {
+    display: flex;
+    justify-content: center;
+}
+
+.controles li {
+    list-style: none;
+    
+}
+
+.controles li a {
+    background-color: none;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.controles li a::before:hover {
+    border-color: darkorange;
+}
+
+.controles li a::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-left: 3px solid ;
+    border-bottom: 3px solid ;
+    border-color: black;
+    transform: rotate(45deg);
+}
+
+.controles li:nth-child(2) a::before {
+    transform: rotate(225deg);
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+a .productName {
+    color: black;
+}
+
+.product a {
+    text-decoration: none;
+}
